@@ -15,7 +15,7 @@ For this process, we start with object detection to find the car and lower the s
 - Feature 3: Compare computer vision models and dimensionality reduction methods on a specific case requiring a precise analysis of an image.
 
 ## Installation
-Start by cloning the directory, then all you need is to launch *[main.py](main.py)
+Start by cloning the directory, then all you need is to launch [main.py](notebooks/main.py)
 
 ## Dataset
 All car photos scraped
