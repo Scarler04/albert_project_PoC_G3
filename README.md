@@ -32,7 +32,6 @@ python .\scripts\main.py
 The dataset is a set of photos scraped on ParuVendu. You can find the photos on this google drive :
 https://drive.google.com/drive/folders/13sQpVtFgQOGI02P-FGD4rb7x7tvAaKF8?usp=sharing
 
-Photo example :
-![Car photo](images/citroen-c3-1.jpg)
+![Car photo](images/citroen-c3-2.jpg)
 
 
