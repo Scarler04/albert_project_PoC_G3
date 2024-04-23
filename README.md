@@ -3,8 +3,10 @@
 
 # Project Title
 
+Car model identification
+
 ## Overview
-Briefly describe what the project does and its purpose. Include any unique features or problems it solves.
+This project's goal is to create Proof of Concept for a model that can differentiate different car models. While a car is easy to identify, it's is harder to differentiate car models, for they are similar and could ressemble even more depending on the orientation and lighting of the photo.
 
 ## Features
 - Feature 1: Describe the feature and its benefit.
@@ -17,12 +19,4 @@ Provide step-by-step instructions on how to get a development environment runnin
 ## Dataset
 All car photos scraped
 https://drive.google.com/drive/folders/13sQpVtFgQOGI02P-FGD4rb7x7tvAaKF8?usp=sharing
-
-
-```bash
-git clone https://github.com/username/projectname.git
-cd projectname
-pip install -r requirements.txt
-
-#yann    yann branche
 
