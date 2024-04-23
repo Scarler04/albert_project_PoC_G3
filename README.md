@@ -1,12 +1,7 @@
-* Creating a clear and informative README file is crucial for any project, as it often serves as the first point of reference for anyone who encounters your project repository.
-* Below is a template to start with: 
-
-# Project Title
-
-Car model identification
+# Car model identification
 
 ## Overview
-This project's goal is to create Proof of Concept for a model that can differentiate different car models. This projects includes object detection, preprocessing techniques like grayscale, bormalization and KMeans, as well as computer vision models such as Convolutional Neural Network (CNN) or Support Vector Machine (SVM)(Still in developement).
+This project's goal is to create Proof of Concept for a model that can differentiate different car models. This project includes object detection, preprocessing techniques like grayscale, normalization and KMeans, as well as computer vision models such as Convolutional Neural Network (CNN) or Support Vector Machine (SVM)(Still in developement).
 
 ## Features
 - Feature 1: Utilize computer vision techniques and machine learning algorithms to accurately identify car models depicted in photos. Users can quickly and accurately determine the model of cars in images, aiding in tasks such as cataloging, inventory management, and automotive research.
