@@ -15,9 +15,24 @@ For this process, we start with object detection to find the car and lower the s
 - Feature 3: Compare computer vision models and dimensionality reduction methods on a specific case requiring a precise analysis of an image.
 
 ## Installation
-Start by cloning the directory, then all you need is to launch [main.py](notebooks/main.py)
+Clone the repository.
+
+Launch [CNN.py](notebooks/CNN.py).
+
+In main.py, change file path line xx to the same path as the cloned repository.
+
+Launch [main.py](notebooks/main.py).
+
+## Python Files
+[main.py](notebooks/main.py) : Main program which regroups the whole optimized process (processes and models that were used in tests but weren't performant enough are not present in main.py)
+
+[scraping.py](notebooks/scraping.py) : Regroups the functions used in the scraping of ParuVendu
+
+[preprocessing.py](notebooks/preprocessing.py) : Regroups the functions used in the different preprocessing steps. The data is already clean, thus preprocessing here is for optimizing the computing time. Not all are used in the final version of main.py.
+
+[CNN.py](notebooks/CNN.py) : Trains the CNN model
 
 ## Dataset
-All car photos scraped
+The dataset is a set of photos scraped on ParuVendu. You can find the photos on this google drive :
 https://drive.google.com/drive/folders/13sQpVtFgQOGI02P-FGD4rb7x7tvAaKF8?usp=sharing
 
