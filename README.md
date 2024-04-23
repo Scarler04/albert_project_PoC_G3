@@ -6,7 +6,30 @@ This project's goal is to create Proof of Concept for a model that can different
 ## Features
 - Feature 1: Utilize computer vision techniques and machine learning algorithms to accurately identify car models depicted in photos. Users can quickly and accurately determine the model of cars in images, aiding in tasks such as cataloging, inventory management, and automotive research.
 - Feature 2: This project is only a Proof of Concept, and is very scalable as this PoC is only focused on 15 car models. It could be reproduced on a larger catalogue of car models and eventually go further by indetnifying the producer of the car or the year of production.
-- Feature 3: Compare computer vision models and dimensionality reduction methods on a specific case requiring a precise analysis of an image.
+- Feature 3: Compare computer vision models and prepocessing methods on a specific case requiring a precise analysis of an image.
+
+## Requirements
+
+- TensorFlow: 
+```pip install tensorflow```
+- Matplotlib: 
+```pip install matplotlib```
+- NumPy: 
+```pip install numpy```
+- Pandas: 
+```pip install pandas```
+- Pillow (PIL): 
+```pip install pillow```
+- Selenium: 
+```pip install selenium```
+- XlsxWriter: 
+```pip install XlsxWriter```
+- Requests: 
+```pip install requests```
+- Scikit-learn (sklearn): 
+```pip install scikit-learn```
+- WebDriver Manager (Edge Chromium): 
+```pip install webdriver-manager msedge-selenium-tools```
 
 ## Installation
 Clone the repository.
