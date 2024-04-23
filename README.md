@@ -8,37 +8,16 @@ This project's goal is to create Proof of Concept for a model that can different
 - Feature 2: This project is only a Proof of Concept, and is very scalable as this PoC is only focused on 15 car models. It could be reproduced on a larger catalogue of car models and eventually go further by indetnifying the producer of the car or the year of production.
 - Feature 3: Compare computer vision models and prepocessing methods on a specific case requiring a precise analysis of an image.
 
-## Requirements
-
-- TensorFlow: 
-```pip install tensorflow```
-- Matplotlib: 
-```pip install matplotlib```
-- NumPy: 
-```pip install numpy```
-- Pandas: 
-```pip install pandas```
-- Pillow (PIL): 
-```pip install pillow```
-- Selenium: 
-```pip install selenium```
-- XlsxWriter: 
-```pip install XlsxWriter```
-- Requests: 
-```pip install requests```
-- Scikit-learn (sklearn): 
-```pip install scikit-learn```
-- WebDriver Manager (Edge Chromium): 
-```pip install webdriver-manager msedge-selenium-tools```
-
 ## Installation
-Clone the repository.
 
-Launch [CNN.py](scripts/CNN.py).
-
-In main.py, change file path line xx to the same path as the cloned repository.
-
-Launch [main.py](scripts/main.py) (This code will create a local file in the cloned repository with the scraped data)
+```bash
+git clone https://github.com/Scarler04/albert_project_PoC_G3
+cd albert_project_PoC_G3
+pip install -r requirements.txt
+python .\scripts\CNN.py
+python .\scripts\main.py
+```
+(This code will create a local file with the scraped data in the cloned repository)
 
 ## Python Files
 [main.py](scripts/main.py) : Main program which regroups the whole optimized process (processes and models that were used in tests but weren't performant enough are not present in main.py)

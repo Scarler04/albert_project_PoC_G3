@@ -8,4 +8,9 @@ scikit-learn
 notebook
 jupyterlab
 requests
-bs4
+tensorflow
+pillow
+selenium
+xlsxwriter
+webdriver-manager msedge-selenium-tools
+opencv-python
