@@ -6,15 +6,16 @@
 Car model identification
 
 ## Overview
-This project's goal is to create Proof of Concept for a model that can differentiate different car models. While a car is easy to identify, it's is harder to differentiate car models, for they are similar and could ressemble even more depending on the orientation and lighting of the photo.
+This project's goal is to create Proof of Concept for a model that can differentiate different car models.
+For this process, we start with object detection to find the car and lower the size of the analyzed and trained photos, then we test different methods to reduce the processing time by modifying the photos (normalizing values, kmeans, grayscale). Finally we apply and compare 2 different models : CNN and SVM (Still developing).
 
 ## Features
-- Feature 1: Describe the feature and its benefit.
-- Feature 2: Highlight another feature and why it's useful.
-- Feature 3: If applicable, describe another key aspect of the project.
+- Feature 1: Utilize computer vision techniques and machine learning algorithms to accurately identify car models depicted in photos. Users can quickly and accurately determine the model of cars in images, aiding in tasks such as cataloging, inventory management, and automotive research.
+- Feature 2: This project is only a Proof of Concept, and is very scalable as this PoC is only focused on 15 car models. It could be reproduced on a larger catalogue of car models and eventually go further by indetnifying the producer of the car or the year of production.
+- Feature 3: Compare computer vision models and dimensionality reduction methods on a specific case requiring a precise analysis of an image.
 
 ## Installation
-Provide step-by-step instructions on how to get a development environment running.
+Start by cloning the directory, then all you need is to launch *[main.py](main.py)
 
 ## Dataset
 All car photos scraped
