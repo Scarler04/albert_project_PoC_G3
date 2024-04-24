@@ -14,7 +14,7 @@ from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
 # Set the directory and parameters
-data_dir = r'C:\Users\user\Documents\cars_project'
+data_dir = r'C:\Users\remip\Python\Cours S2 2023-2024\albert_project_PoC_G3\cars_project'
 img_width, img_height = 480, 360
 batch_size = 32
 epochs = 35
@@ -24,6 +24,7 @@ filenames = os.listdir(data_dir)
 labels = [filename.split('-')[:2] for filename in filenames]
 labels = pd.DataFrame(labels, columns=['brand', 'model'])
 labels['filename'] = filenames
+labels = labels[labels['model']!='None']
 
 
 # Kmeans 
