@@ -35,7 +35,7 @@ https://drive.google.com/drive/folders/13sQpVtFgQOGI02P-FGD4rb7x7tvAaKF8?usp=sha
 
 Here is an example of a photo :
 
-![Car photo](images/citroen-c3-2.jpg)
+![Car photo](images/example1.jpg)
 
 ## Going Deeper
 
